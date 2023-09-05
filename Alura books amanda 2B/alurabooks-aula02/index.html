@@ -60,9 +60,9 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide"><img src="./img/ Nodejs.svg"></div>
-      <div class="swiper-slide"><img src="./img/ MEAN.svg"></div>
-      <div class="swiper-slide"><img src="./img/MetricasAgeis.svg"></div>
+      <div class="swiper-slide"><img src="img/Nodejs.svg"></div>
+      <div class="swiper-slide"><img src="img/MEAN.svg"></div>
+      <div class="swiper-slide"><img src="img/MetricasAgeis.svg"></div>
       ...
     </div>
     <!-- If we need pagination -->
@@ -71,10 +71,31 @@
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-  
+  </div>
+
+  <div class="card"></div>
+<!--1° linha-->
     <!-- If we need scrollbar -->
+    <div class="descricao">
+        <h3 class="descricao__titulo">talvez você</h3>
+        <h2 class="descricao__titulo-livro">Angular</h2>
+        <p class="descricao__texto">Construindo uma</p>
+
+
+
+
     <div class="swiper-scrollbar"></div>
   </div>
+ <script src="https://unpk.com/swiper@8/swiper-bundle.min.js"></script>
+ <script>
+    const swiper = new swiper('.swiper,',{
+        spaceBetween:10,
+        slidesPerview:3,
+    });
+
+ </script>
+ 
+
 </body>
 
 </html>
